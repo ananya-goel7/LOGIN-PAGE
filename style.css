@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
 *,
 *:before,
 *:after{
@@ -7,6 +9,13 @@
 }
 body{
     background-color: #a3e2a9;
+    background-image: url(4174806.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; /* This ensures the background covers the entire viewport */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 .background{
     width: 430px;
